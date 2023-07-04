@@ -71,7 +71,6 @@ const ContactUs: React.FC<Props> = ({ setSelectedPage }) => {
                         <form
                             target="_blank"
                             onSubmit={onSubmit}
-                            method="POST"
                         >
                             <input
                                 className={inputStyles}
